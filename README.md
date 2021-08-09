@@ -21,11 +21,11 @@ Take some time to explore. This application already has a few things set up that
 - Each article should display the title, introduction, image, author, and the date the article was created
 - When articles are clicked (Read More), a new tab should be opened displaying the `body` of the article
 - Build your components using modern React, including 'hooks' based components
+- Make the articles searchable by title - you can pass `title` query parameter to the `/api/articles` endpoint
+- Make the articles sortable by various criteria like created date or title
 
 ## Bonus Objectives
 
-- Make the articles searchable by title - you can pass `title` query parameter to the `/api/articles` endpoint
-- Make the articles sortable by various criteria like created date or title
 - Use a state management library such as Redux
 - Add unit tests! We like RSpec, Jest, and React Testing Library
 - Dockerize your application (use a dockerfile and docker-compose)
