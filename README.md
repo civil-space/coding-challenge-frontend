@@ -12,12 +12,12 @@ Everyone at Civil Space cares about usability and accessibility, so your applica
 
 ## Specifications
 
-Take some time to explore. This application already has a few things set up that you'll need, including Apollo for handling GraphQL requests on the React side of things, and the rails-graphql gem for resolving queries. The goal is to fetch a list of 'articles' from Rails and display those in React at the `/articles` route. We've included a design for the article listing page, so do your best to match it. For any other pages, it's up to you, but don't worry, we don't expect you to be a designer. As a side note, given the scale of this application, not every requirement may make sense in a real world scenario. The goal here is to see what you can do.
+Take some time to explore. This application already has a few things set up that you'll need. The goal is to fetch a list of 'articles' from Rails and display those in React at the `/articles` route. We've included a design for the article listing page, so do your best to match it. For any other pages, it's up to you, but don't worry, we don't expect you to be a designer. As a side note, given the scale of this application, not every requirement may make sense in a real world scenario. The goal here is to see what you can do.
 
 ## Requirements
 
 - When users navigate to the `/articles` route, a list of article should be displayed matching the designs (ignore the search bar and sorting options unless you're completing the relevant bonus objectives)
-- Articles should be fetched from Rails using GraphQL
+- Articles should be fetched from Rails using GET `/api/articles` endpoint
 - Each article should display the title, introduction, image, author, and the date the article was created
 - When articles are clicked (Read More), a new tab should be opened displaying the `body` of the article
 - Build your components using modern React, including 'hooks' based components
@@ -74,8 +74,6 @@ $ bin/webpack-dev-server
 Here are a couple helpful articles that inspired some of the setup for this application:
 
 - [Frontend Setup](https://evilmartians.com/chronicles/evil-front-part-1)
-- [GraphQL](https://evilmartians.com/chronicles/graphql-on-rails-1-from-zero-to-the-first-query)
-- [Apollo Queries](https://www.apollographql.com/docs/react/data/queries/)
 
 ## Your Considerations/Setup
 

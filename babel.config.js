@@ -73,7 +73,6 @@ module.exports = function (api) {
         {
           root: ["."],
           alias: {
-            graphql: "./frontend/graphql",
             home: "./frontend/features/home",
             articles: "./frontend/features/articles",
           },
