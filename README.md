@@ -24,7 +24,7 @@ Take some time to explore. This application already has a few things set up that
 
 ## Bonus Objectives
 
-- Make the articles searchable by title
+- Make the articles searchable by title - you can pass `title` query parameter to the `/api/articles` endpoint
 - Make the articles sortable by various criteria like created date or title
 - Use a state management library such as Redux
 - Add unit tests! We like RSpec, Jest, and React Testing Library
